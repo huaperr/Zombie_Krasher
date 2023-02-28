@@ -100,6 +100,7 @@ public class EnemyDamage : MonoBehaviour
             if (enemyHP <= 0)
             {
                 Destroy(gameObject);
+                ScoreManager.instance.AddPoint();
             }
         }
     }

@@ -49,7 +49,7 @@ public class Pause : MonoBehaviour
 
     public void Restart(GameObject idk)
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Prueba");
         Time.timeScale = 1f;
         IsPaused = false;
     }
